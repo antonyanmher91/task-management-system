@@ -1,0 +1,25 @@
+{
+  "name": "node-tasks",
+  "version": "1.0.0",
+  "description": "tasks service",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "mnm media",
+  "license": "ISC",
+  "dependencies": {
+    "dnscache": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "mongoose-to-swagger": "^1.4.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.2"
+  }
+}

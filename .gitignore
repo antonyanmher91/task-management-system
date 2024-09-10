@@ -1,0 +1,12 @@
+.idea
+.vscode
+.env
+.env.*
+.env*
+migrate*
+tmp*
+generated
+!.env.example
+node_modules
+package-lock.json
+logfile.log
