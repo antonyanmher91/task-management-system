@@ -35,8 +35,8 @@ A task management system built with Node.js and MongoDB. Provides an API for tas
 
 ## API Endpoints
 
-- `POST /api/tasks`: Create a new task
-- `GET /api/tasks/:id`: Get task details
-- `PUT /api/tasks/:id`: Update task
-- `DELETE /api/tasks/:id`: Delete task
-- `GET /api/tasks/report/completion`: Get task completion report
+- `POST /tasks`: Create a new task
+- `GET /tasks/:id`: Get task details
+- `PUT /tasks/:id`: Update task
+- `DELETE /tasks/:id`: Delete task
+- `GET /tasks/report/completion`: Get task completion report
